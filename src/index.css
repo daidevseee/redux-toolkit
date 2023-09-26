@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.custom-modal{
+    margin: 0 auto;
+    width: 50%;
+    align-items: center;
+}
+.editor{
+    border-radius: 10px;
+}
+.no-data{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.join{
+    display: flex;
+    justify-content: center;
+}
+.more-option{
+    display: flex;
+    justify-content: flex-end;
+}
+.todo-from{
+    margin-left: 10px;
+}
+.excel{
+    margin-right: 10px;
 }
